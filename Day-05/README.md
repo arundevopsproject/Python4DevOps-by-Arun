@@ -51,16 +51,17 @@
     This script is a simple Python program that shows how to use the sys.argv list to read command-line arguments supplied to a Python script.
 
     Let’s go over the dialogue line by line:
-    1. import sys: This line imports the sys module, giving you access to a number of system-specific parameters and functions.
-    2. py_list = sys.argv: In this case, the variable py_list is set to the sys.argv list. Python stores the command-line arguments given to the script in a list called sys.argv. The name of the script itself appears as the first member of this list (sys.argv[0]).
-    3. print(‘py_list:’, py_list): This statement publishes the information contained in the py_list variable, which shows all of the command-line parameters supplied to the script.
-    4. arguments = len(sys.argv): The variable arguments is given the length of the sys.argv list in this line. It provides us with the overall number of command-line arguments the script received.
-    5. print(‘Number of arguments:’, arguments): This line outputs the total number of arguments the script received on the command line.
-    6. print(‘py file name:’, py_list[0]): This line displays the name of the Python script that is kept in sys.argv[0].
-    7. print(“Iteration over passed arguments:”): This line produces a header indicating that the loop that comes next will iterate over the parameters that were passed.
-    8. for each item in py_list: The py_list list’s elements are iterated over in this loop.
-    Prepared by Arun Baidya
-    9. print(item): This line prints each item in the py_list list, which is equivalent to each argument given as part of the script’s command-line.
+        1. import sys: This line imports the sys module, giving you access to a number of system-specific parameters and functions.
+        2. py_list = sys.argv: In this case, the variable py_list is set to the sys.argv list. Python stores the command-line arguments given to the script in a list called sys.argv. The name of the script itself appears as the first member of this list (sys.argv[0]).
+        3. print(‘py_list:’, py_list): This statement publishes the information contained in the py_list variable, which shows all of the command-line parameters supplied to the script.
+        4. arguments = len(sys.argv): The variable arguments is given the length of the sys.argv list in this line. It provides us with the overall number of command-line arguments the script received.
+        5. print(‘Number of arguments:’, arguments): This line outputs the total number of arguments the script received on the command line.
+        6. print(‘py file name:’, py_list[0]): This line displays the name of the Python script that is kept in sys.argv[0].
+        7. print(“Iteration over passed arguments:”): This line produces a header indicating that the loop that comes next will iterate over the parameters that were passed.
+        8. for each item in py_list: The py_list list’s elements are iterated over in this loop.
+        Prepared by Arun Baidya
+        9. print(item): This line prints each item in the py_list list, which is equivalent to each argument given as part of the script’s command-line.
+    
     This script will display details about the arguments when you run it from the command line and supply them.
 
 
@@ -80,9 +81,11 @@
 
 # 2.Python getopt module:
     Getopt is an inbuilt bash feature used to provide the options from command line. Getopt is used by shell procedure to pass the positional parameters of string contains the option characters to be recognized.
-    Prepared by Arun Baidya
+    
     Python getopt module is a parser, used for analysing command line options, given in command line arguments in sys.argv. Parsing means dividing the commands into smaller parts and trying to understand.
+
     To use this module, we need to import it, using the command import getopt
+    
     The main function provided by this module is getopt() function. The purpose of this getopt() function is to parse command line options and parameter list.
 
 # Syntax: getopt.getopt(args,options,[long options])
@@ -91,32 +94,34 @@
     • Args: this is the arguments passed to the function. It is the classification of the arguments to be analyzed and derived from sys.argv[1:] i.e. arguments from first position to all command line arguments. \
     • Options: These are also known as short options. This is the second parameter passed in the function. The options are the characters followed by colon; the script need to recognize. option is expected to have an argument which should be separated by white space. Short option should have prefix with ‘-‘.
     • Long options: This is the third parameter passed to the python getopt function. It is the sequence of the strings with the long names known as long options alternative to the short options. Long option names can be consisting of more than one single character, and its name should have prefix with ‘- -’
-    If any long option needs an argument, then it should be followed by an equal to ‘=’ sign.
+      If any long option needs an argument, then it should be followed by an equal to ‘=’ sign.
     • Return value: Return value consisting of two elements: the first is a list of (option, value) pairs and second element is a list of arguments that are left when the options list was stripped.
 
 # Example: Python getopt Module
 
     # Script: getopt_example.py
-    import sys
-    import getopt
-    # Get command-line arguments (excluding script name)
-    args = sys.argv[1:]
-    Prepared by Arun Baidya
-    # Define short and long options
-    # -h : help
-    # -n : name
-    # -a : age
-    opts, vals = getopt.getopt(args, "hn:a:", ["help", "name=", "age="])
-    for opt, val in opts:
-    if opt in ("-h", "--help"):
-    print("Usage: python getopt_example.py -n <name> -a <age>")
-    sys.exit()
-    elif opt in ("-n", "--name"):
-    name = val
-    elif opt in ("-a", "--age"):
-    age = val
-    print("Name:", name)
-    print("Age:", age)
+        import sys
+        import getopt
+        
+        # Get command-line arguments (excluding script name)
+        args = sys.argv[1:]
+        Prepared by Arun Baidya
+        
+        # Define short and long options
+        # -h : help
+        # -n : name
+        # -a : age
+        opts, vals = getopt.getopt(args, "hn:a:", ["help", "name=", "age="])
+        for opt, val in opts:
+            if opt in ("-h", "--help"):
+                print("Usage: python getopt_example.py -n <name> -a <age>")
+                sys.exit()
+            elif opt in ("-n", "--name"):
+                name = val
+            elif opt in ("-a", "--age"):
+                age = val
+            print("Name:", name)
+            print("Age:", age)
 
 
 # How to Run?
@@ -124,17 +129,18 @@
 
 # 3.Python argparse module:
 Argparse is a widely used in-built command line parser module to parse the input entered through the command line interface. To use this, we need to import argparse module.
+
 This module was released with python 3.2. Python argparse module allows to
 
     1.Parse command- line arguments and options.
     2.Take a variable number of parameters in a single option.
     3.Provide subcommands in CLI.
 
-    # Creating parser object:
-    import argparse
-    parser=argparse.ArgumentParser()
+# Creating parser object:
+import argparse
+parser=argparse.ArgumentParser()
     
-    # Syntax for creating ArgumentParser Objects:
+# Syntax for creating ArgumentParser Objects:
     argparse.ArgumentParser(
         prog=None,
         usage=None,
