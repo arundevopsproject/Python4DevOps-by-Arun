@@ -45,7 +45,7 @@ result = x != y
 
 
 
-# Relational Operators Recap
+#  Python Relational Operators Usecases for DevOps  
 
 | Operator | Meaning               |
 | -------- | --------------------- |
@@ -67,7 +67,7 @@ result = x != y
 cpu_usage = 93
 
 if cpu_usage > 90:
-    print("🚨 ALERT: CPU usage is critically high!")
+    print("ALERT: CPU usage is critically high!")
 ```
 
 ### Output:
@@ -186,7 +186,7 @@ Used in security validation scripts.
 
 
 
-# ✅ Interview Practice Questions (DevOps Style)
+# Interview Practice Questions (DevOps Style)
 
 ### Q1:
 
@@ -221,7 +221,7 @@ if latency > 200:
 
 
 
-# ✅ Key DevOps Insight
+# Key DevOps Insight
 
 Relational operators are the foundation for:
 

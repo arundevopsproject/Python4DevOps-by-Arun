@@ -16,6 +16,8 @@ result = 5 + 3 * 2
 ===================================================================================================
 
 
+# Python Precedence Operators Usecases for DevOps
+
 
 # 1. CPU + Memory Alert Rule (Logical Precedence)
 

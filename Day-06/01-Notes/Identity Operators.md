@@ -388,9 +388,8 @@ print(x is y)
  ===================================================================================
 
  
-
-Here are **5 real DevOps examples of Python Identity Operations** with scripts + explanation.
-
+ 
+# Python Identity Operators Usecases for DevOps
  
 
 # Identity Operators Recap

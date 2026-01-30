@@ -43,10 +43,10 @@ print(result)  # Output: 3
 # Practice Example:
 
 
-# ✅ Harder Python Arithmetic Operator Examples
+# Harder Python Arithmetic Operator Examples
 
 
-# ✅ 1. Operator Precedence (Very Common Interview Trap)
+# 1. Operator Precedence (Very Common Interview Trap)
 
 
 result = 10 + 5 * 2 ** 2
@@ -54,7 +54,7 @@ print(result)
 
 
 
-# ✅ 2. Floor Division with Negative Numbers (Tricky)
+# 2. Floor Division with Negative Numbers (Tricky)
 
 
 print(-15 // 4)
@@ -74,7 +74,7 @@ Floor division always rounds **down**, not toward zero.
 
 
 
-# ✅ 3. Modulus with Negative Numbers (Very Confusing)
+# 3. Modulus with Negative Numbers (Very Confusing)
 
 
 print(-15 % 4)
@@ -99,7 +99,7 @@ So:
 
 
 
-# ✅ 4. Time Conversion Problem (Real-World)
+# 4. Time Conversion Problem (Real-World)
 
 Convert seconds into hours, minutes, seconds.
 
@@ -122,7 +122,7 @@ print(hours, "hours", minutes, "minutes", secs, "seconds")
 
 
 
-# ✅ 5. Extract Last Digit and Remove Last Digit
+# 5. Extract Last Digit and Remove Last Digit
 
 
 num = 98765
@@ -142,7 +142,7 @@ Remaining number: 9876
 
 
 
-# ✅ 6. Check if a Number is Even or Odd Without `if`
+# 6. Check if a Number is Even or Odd Without `if`
 
 
 n = 27
@@ -156,7 +156,7 @@ Odd
 
 
 
-# ✅ 7. Swap Two Numbers Without Temporary Variable
+# 7. Swap Two Numbers Without Temporary Variable
 
 
 a = 15
@@ -178,7 +178,7 @@ b = 15
 
 
 
-# ✅ 8. Reverse a 3-Digit Number Using Arithmetic Operators
+# 8. Reverse a 3-Digit Number Using Arithmetic Operators
 
 num = 543
 
@@ -196,8 +196,7 @@ print(reverse)
 
 
 
-
-# ✅ 9. Compound Arithmetic Assignment (DevOps Useful)
+# 9. Compound Arithmetic Assignment (DevOps Useful)
 
 cpu_usage = 40
 
@@ -214,7 +213,7 @@ print(cpu_usage)
 
 
 
-# ✅ 10. Real DevOps Example: Disk Space Alert Calculation
+# 10. Real DevOps Example: Disk Space Alert Calculation
 
 
 total_disk = 500  # GB
@@ -235,7 +234,7 @@ Free Percentage: 15.4 %
 
 
 
-# ✅ 11. Billing System with Tax + Discount
+# 11. Billing System with Tax + Discount
 
 price = 1200
 quantity = 4
@@ -258,7 +257,7 @@ Final Bill = 5097.6
 
 
 
-# ✅ 12. Large Number Power with Modulus (Crypto Style)
+# 12. Large Number Power with Modulus (Crypto Style)
 
 
 print((7 ** 100) % 13)
@@ -266,7 +265,7 @@ print((7 ** 100) % 13)
 Used in cryptography, hashing, security systems.
 
 
-# ✅ 13. Interview Challenge: Digital Root Using Arithmetic
+# 13. Interview Challenge: Digital Root Using Arithmetic
 
 Example: 987 → 9+8+7 = 24 → 2+4 = 6
 
@@ -283,7 +282,7 @@ print(root)
 
 
 
-# ✅ 14. Find Middle Value Without Sorting (Arithmetic Trick)
+# 14. Find Middle Value Without Sorting (Arithmetic Trick)
 
 a, b, c = 15, 9, 12
 
@@ -297,8 +296,7 @@ Middle = 12
 
 
 
-
-# ✅ 15. Split Money into Notes (ATM Problem)
+# 15. Split Money into Notes (ATM Problem)
 
 amount = 3786
 

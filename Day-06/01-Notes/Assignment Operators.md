@@ -40,10 +40,10 @@ y += 3  # Equivalent to y = y + 3
 
 
 
-# ✅ Assignment Operators in Python (Hard Practice Examples)
+# Assignment Operators in Python (Hard Practice Examples)
 
 
-## ✅ List of Assignment Operators
+## List of Assignment Operators
 
 | Operator | Meaning                 | Example           |    |      |
 | -------- | ----------------------- | ----------------- | -- | ---- |
@@ -63,7 +63,7 @@ y += 3  # Equivalent to y = y + 3
 
  
 
-# ✅ 1. Multiple Assignment Updates (Interview Trap)
+# 1. Multiple Assignment Updates (Interview Trap)
 
 x = 10
 
@@ -86,7 +86,7 @@ print(x)
  
 
 
-# ✅ 2. Assignment Operator with Expression
+# 2. Assignment Operator with Expression
 
 x = 8
 x += x * 2
@@ -106,7 +106,7 @@ print(x)
 
 
 
-# ✅ 3. Floor Division Assignment with Negative Numbers
+# 3. Floor Division Assignment with Negative Numbers
 
 x = -17
 x //= 4
@@ -121,7 +121,7 @@ print(x)
 
  
 
-# ✅ 4. Modulus Assignment in Cyclic Systems
+# 4. Modulus Assignment in Cyclic Systems
 
 Used in **round-robin scheduling**.
 
@@ -134,7 +134,7 @@ print("Assigned Server:", server_id)
  
  
 
-# ✅ 5. Exponent Assignment (Power Growth Simulation)
+# 5. Exponent Assignment (Power Growth Simulation)
 
  
 load = 2
@@ -145,7 +145,7 @@ print(load)
 
  
 
-# ✅ 6. Real DevOps Example: CPU Autoscaling Increase
+# 6. Real DevOps Example: CPU Autoscaling Increase
 
 cpu = 45  # current usage %
 
@@ -158,7 +158,7 @@ print("Final CPU:", cpu)
 
  
 
-# ✅ 7. Compound Assignment in Loop (Production Use)
+# 7. Compound Assignment in Loop (Production Use)
 
 total_requests = 0
 
@@ -170,7 +170,7 @@ print("Requests handled:", total_requests)
 
 
 
-# ✅ 8. Assignment Operators with Lists (Hard Concept)
+# 8. Assignment Operators with Lists (Hard Concept)
 
 nums = [1, 2, 3]
 nums *= 3
@@ -179,7 +179,7 @@ print(nums)
 
 
 
-# ✅ 9. Assignment Operator with Strings (Tricky)
+# 9. Assignment Operator with Strings (Tricky)
 
  
 msg = "Deploy"
@@ -190,7 +190,7 @@ print(msg)
 
 
 
-# ✅ 10. Bitwise Assignment Operator (Security + Networking)
+# 10. Bitwise Assignment Operator (Security + Networking)
 
 ### Example: Permission Flags
 
@@ -210,7 +210,7 @@ Used in Linux permissions, firewall rules, IAM flags.
 
 
 
-# ✅ 11. Toggle Feature Flag Using XOR Assignment
+# 11. Toggle Feature Flag Using XOR Assignment
 
 flag = 1
 flag ^= 1
@@ -226,7 +226,7 @@ XOR toggles between ON/OFF.
 
  
 
-# ✅ 12. Shift Assignment (Memory Optimization / Networking)
+# 12. Shift Assignment (Memory Optimization / Networking)
  
 x = 8
 x <<= 2
@@ -240,7 +240,7 @@ print(x)
 
  
 
-# ✅ 13. Right Shift Assignment (Divide by Power of 2)
+# 13. Right Shift Assignment (Divide by Power of 2)
  
 x = 64
 x >>= 3
@@ -255,7 +255,7 @@ print(x)
  
 
 
-# ✅ 14. Real-World Example: AWS Billing Adjustment
+# 14. Real-World Example: AWS Billing Adjustment
 
  
 monthly_cost = 12000
@@ -272,7 +272,7 @@ Final AWS Bill: 10700.0
  
 
 
-# ✅ 15. Hard Interview Puzzle
+# 15. Hard Interview Puzzle
 
  
 x = 5
@@ -294,9 +294,9 @@ print(x, y)
 
 
 
-Here are **5 real-world DevOps examples of Python Assignment Operations scripts**.
-
+# Python Assignment Operators Usecases for DevOps
  
+
 
 # 1. Monitoring Counter Increment (`+=`)
 

@@ -36,9 +36,9 @@ result = x | y  # Result: 1111 (Decimal: 15)
 
  
 
-# ✅ Harder Examples of Bitwise Operators in Python
+# Harder Examples of Bitwise Operators in Python
 
-## ✅ Bitwise Operators Quick Table
+## Bitwise Operators Quick Table
 
 | Operator | Meaning      |    |
 | -------- | ------------ | -- |
@@ -51,7 +51,7 @@ result = x | y  # Result: 1111 (Decimal: 15)
 
  
 
-# ✅ 1. Check if a Number is Power of 2 (Interview Favorite)
+# 1. Check if a Number is Power of 2 (Interview Favorite)
 
  
 n = 32
@@ -73,7 +73,7 @@ Power of 2 numbers have only **one bit set**.
  
 
 
-# ✅ 2. Swap Two Numbers Without Temp Variable (Using XOR)
+# 2. Swap Two Numbers Without Temp Variable (Using XOR)
 
 a = 15
 b = 9
@@ -97,7 +97,7 @@ Used in low-level programming and optimization.
  
 
 
-# ✅ 3. Find Odd Occurring Element (Very Common Coding Problem)
+# 3. Find Odd Occurring Element (Very Common Coding Problem)
 
 Only one number appears odd times:
 
@@ -120,7 +120,7 @@ XOR cancels duplicates.
 
  
 
-# ✅ 4. Toggle a Bit (Feature Flag / Permissions)
+# 4. Toggle a Bit (Feature Flag / Permissions)
 
 flags = 0b1010
 
@@ -141,7 +141,7 @@ Used in Linux permissions, IAM flags.
 
  
 
-# ✅ 5. Set a Specific Bit (Enable Permission)
+# 5. Set a Specific Bit (Enable Permission)
 
 permissions = 0b0010
 
@@ -153,7 +153,7 @@ print(bin(permissions))
 
 
 
-# ✅ 6. Clear a Bit (Disable Permission)
+# 6. Clear a Bit (Disable Permission)
 
 permissions = 0b1111
 
@@ -165,7 +165,7 @@ print(bin(permissions))
  
 
 
-# ✅ 7. Check if a Bit is Set or Not
+# 7. Check if a Bit is Set or Not
 
 num = 0b101101
 bit_position = 3
@@ -178,7 +178,7 @@ else:
 
  
 
-# ✅ 8. Efficient Multiply and Divide Using Shifts
+# 8. Efficient Multiply and Divide Using Shifts
 
 ### Multiply by 8:
 
@@ -200,7 +200,7 @@ Used in CPU-level optimizations.
 
 
 
-# ✅ 9. Bitwise NOT Trick (Two’s Complement)
+# 9. Bitwise NOT Trick (Two’s Complement)
 
 x = 5
 print(~x)
@@ -222,7 +222,7 @@ So:
 
  
 
-# ✅ 10. IP Address Subnet Mask Check (DevOps Networking Use Case)
+# 10. IP Address Subnet Mask Check (DevOps Networking Use Case)
 
 ip = 192
 mask = 255
@@ -240,7 +240,7 @@ Used in routing, subnetting.
 
  
 
-# ✅ 11. Extract Last Set Bit (Advanced)
+# 11. Extract Last Set Bit (Advanced)
 
 n = 40  # 101000
 
@@ -258,7 +258,7 @@ This is used in binary indexed trees, optimizations.
  
 
 
-# ✅ 12. Count Set Bits (Hamming Weight)
+# 12. Count Set Bits (Hamming Weight)
 
 n = 29  # 11101
 count = 0
@@ -278,7 +278,7 @@ Fastest bit counting algorithm.
  
 
 
-# ✅ 13. XOR Encryption Example (Security Use Case)
+# 13. XOR Encryption Example (Security Use Case)
  
 data = 25
 key = 12
@@ -301,7 +301,7 @@ Used in simple encryption & hashing logic.
  
 
 
-# ✅ 14. Find Missing Number Using XOR
+# 14. Find Missing Number Using XOR
 
 arr = [1, 2, 4, 5, 6]
 n = 6
@@ -326,10 +326,9 @@ print("Missing number:", missing)
 
 
 
-
+# Python Bitwise Operators Usecases for DevOps
  
 
-Here are **5 real DevOps examples of Python Bitwise Operator scripts** with practical use cases.
 
  
 # 1. Linux Permission Management (chmod Style)
