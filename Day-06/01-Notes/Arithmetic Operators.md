@@ -56,8 +56,11 @@ print(result)
 
 # 2. Floor Division with Negative Numbers (Tricky)
 
+a = -15
+b = 4
 
-print(-15 // 4)
+Floor_value = -15//4
+print("Floor_value: ", Floor_value)
 
 
 ### Explanation:
@@ -104,15 +107,26 @@ So:
 Convert seconds into hours, minutes, seconds.
 
 
+# Convert seconds into hours, minutes, and seconds
+# Using floor division and modulus operators
+
 seconds = 3672
 
+# Step 1: Calculate hours
 hours = seconds // 3600
+
+# Step 2: Find remaining seconds after removing hours
 remaining = seconds % 3600
 
+# Step 3: Calculate minutes from remaining seconds
 minutes = remaining // 60
+
+# Step 4: Find final seconds after removing minutes
 secs = remaining % 60
 
+# Output result
 print(hours, "hours", minutes, "minutes", secs, "seconds")
+
 
 
 ### Output:
@@ -121,9 +135,7 @@ print(hours, "hours", minutes, "minutes", secs, "seconds")
 
 
 
-
 # 5. Extract Last Digit and Remove Last Digit
-
 
 num = 98765
 

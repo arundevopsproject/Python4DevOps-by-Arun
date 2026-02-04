@@ -40,7 +40,7 @@ y += 3  # Equivalent to y = y + 3
 
 
 
-# Assignment Operators in Python (Hard Practice Examples)
+# Assignment Operators in Python (Practice Examples)
 
 
 ## List of Assignment Operators
