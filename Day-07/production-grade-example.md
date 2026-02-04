@@ -11,9 +11,9 @@
 
  
 
-# ✅ USE CASE 1: Jenkins CI/CD Build Status Validation & Deployment Decision
+# USE CASE 1: Jenkins CI/CD Build Status Validation & Deployment Decision
 
----
+
 
 ## Scenario Explanation
 
